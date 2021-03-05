@@ -222,9 +222,7 @@ button {
     height: auto;
     white-space: normal;
   }
-  ul {
-    list-style-type:none;
-  }
+
 
   .green-text {
       color: green;
@@ -253,3 +251,9 @@ button {
       background-color: #0f7c90;
       color: #0f7c90;
   }
+  /* Assignment 2 */
+  ul {
+    list-style-image:url("/images/images\ bullet.jpg");
+  }
+
+
