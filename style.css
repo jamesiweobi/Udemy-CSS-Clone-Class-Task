@@ -117,18 +117,6 @@ hr {
 
 /* Card Section */
 
-.card-container {
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.card {
-    width: 230px;
-    padding: 20px 0;
-    line-height: 1.5;
-}
-
 .card-container h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(39, 38, 38);
@@ -190,36 +178,6 @@ button {
     line-height: 1.5;
     position: relative;
     display: inline-block;
-}
-
-.card-container h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(39, 38, 38);
-    font-size: 16px;
-   white-space: nowrap;
-    width: 220px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-right: 5px;
-}
-
-.card-img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-}
-
-.card-img img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-    border: 1px solid rgb(223, 222, 222);
-}
-.author,  .sales {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #73726c;
-    font-size: 12px;
-    line-height: 17px;
 }
 
 
@@ -289,4 +247,9 @@ button {
       top: 11px;
       padding-left: 10px;
       color: rgb(223, 222, 222;
+  }
+
+  a:hover, i:hover{
+      background-color: #0f7c90;
+      color: #0f7c90;
   }
